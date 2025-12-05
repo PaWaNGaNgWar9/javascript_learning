@@ -1,0 +1,16 @@
+const myarr = [1, 2, 3, 4, 5];
+console.log(myarr);
+myarr.push(10);
+myarr.push(20);
+console.log(myarr);
+myarr.pop();
+myarr.unshift(4);
+console.log(myarr);
+// const newarray = myarr.join();
+console.log(typeof newarray);
+const anotherarray = myarr.slice(2, 5);
+console.log("A" , myarr);
+console.log(anotherarray);
+const mynewarray = myarr.splice(2, 5);
+console.log( mynewarray);
+console.log("B" , myarr);
