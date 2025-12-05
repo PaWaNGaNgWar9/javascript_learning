@@ -1,0 +1,14 @@
+const marvel_Heroes = ['Iron Man', 'Captain America', 'Thor', 'Hulk', 'Black Widow'];
+const dc_Heroes = ['Batman', 'Superman', 'Wonder Woman', 'Flash', 'Aquaman'];
+// marvel_Heroes.push(dc_Heroes);
+// console.log(marvel_Heroes);
+const all_Heroes=marvel_Heroes.concat(dc_Heroes);
+console.log(all_Heroes);
+const all_new_Heroes= [...marvel_Heroes, ...dc_Heroes];
+console.log(all_new_Heroes);
+console.log(Array.isArray("Peter Parker"));
+console.log(Array.from("peter Parket"));
+let score1=100;
+let score2=200;
+let score3 =300;
+console.log(Array.of(score1,score2,score3));
