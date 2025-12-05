@@ -10,3 +10,4 @@ function handleobject(anyobject){
     return `the User name ${anyobject.name} has to pay price of ${anyobject.price}`;
 }
 console.log(handleobject(user));
+       
