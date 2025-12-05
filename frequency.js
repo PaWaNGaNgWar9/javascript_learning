@@ -13,5 +13,5 @@ for(let i=0 ; i<arr.length; i++)
             visited[j]= true;
         }
     }
-     console.log("frequency"+count +"="+arr[i]);
+     console.log("frequency of "+ arr[i] +"=" +count);
 }
